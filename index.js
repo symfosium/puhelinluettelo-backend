@@ -94,7 +94,7 @@ let persons = [
  })
 
 
- const PORT = process.env.PORT || 3001;
+ const PORT = process.env.PORT || 3001
  app.listen(PORT, () => {
-   console.log(`App running on ${PORT}`)
+    console.log(`Server running on port ${PORT}`)
  })
